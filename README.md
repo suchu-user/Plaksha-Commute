@@ -1,19 +1,20 @@
-# Plaksha Commute
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-## Introduction
-This is a sample project for demonstrating the usage of React with Vite and Tailwind CSS.
+# Run and deploy your AI Studio app
 
-## Installation
-1. Clone the repository
-2. Install dependencies: `npm install`
+This contains everything you need to run your app locally.
 
-## Usage
-- Development: `npm run dev`
-- Build: `npm run build`
-- Preview: `npm run preview`
+View your app in AI Studio: https://ai.studio/apps/4fa6f825-2914-493d-85c0-c48e0b5f566b
 
-### Environment Variables
-Create a `.env` file using the `.env.example` file as a template.
+## Run Locally
 
-## License
-MIT License.
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
